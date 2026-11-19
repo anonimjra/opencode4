@@ -51,10 +51,10 @@ Menggabungkan seluruh komponen section publik ke dalam halaman utama (`app/(publ
    - Bungkus dengan `ThemeProvider`.
 
 ## Kriteria selesai
-- [ ] Landing page ter-render sempurna dengan nuansa cinema dark.
-- [ ] Tab filter kategori alat menyaring produk secara instan.
-- [ ] Modal Quick View terbuka menampilkan spesifikasi sensor dan checklist kelengkapan tas.
-- [ ] Seluruh data dinamis termuat dari database Supabase.
+- [x] Landing page ter-render sempurna dengan nuansa cinema dark.
+- [x] Tab filter kategori alat menyaring produk secara instan.
+- [x] Modal Quick View terbuka menampilkan spesifikasi sensor dan checklist kelengkapan tas.
+- [x] Seluruh data dinamis termuat dari database Supabase.
 
 ## Verifikasi
 `npm run build`
