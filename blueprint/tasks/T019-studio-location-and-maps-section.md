@@ -30,9 +30,9 @@ Membangun section Lokasi Studio & Jam Pengambilan Alat (`components/landing/Stud
        - Render `<iframe>` responsif Google Maps.
 
 ## Kriteria selesai
-- [ ] Section memiliki atribut `id="location"`.
-- [ ] Jam operasional pick-up terender dinamis.
-- [ ] Peta Google Maps responsif tanpa overflow.
+- [x] Section memiliki atribut `id="location"`.
+- [x] Jam operasional pick-up terender dinamis.
+- [x] Peta Google Maps responsif tanpa overflow.
 
 ## Verifikasi
 `npx tsc --noEmit`
