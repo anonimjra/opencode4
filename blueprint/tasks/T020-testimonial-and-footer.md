@@ -31,9 +31,9 @@ Membangun section Testimoni Pelanggan (`components/landing/TestimonialSection.ts
    - Hak Cipta + Link login admin `/admin/login`.
 
 ## Kriteria selesai
-- [ ] Testimoni creator terender rapi.
-- [ ] Tombol melayang WhatsApp tampak di sudut kanan bawah dengan tooltip informatif.
-- [ ] Footer menyajikan informasi navigasi dan copyright dinamis.
+- [x] Testimoni creator terender rapi.
+- [x] Tombol melayang WhatsApp tampak di sudut kanan bawah dengan tooltip informatif.
+- [x] Footer menyajikan informasi navigasi dan copyright dinamis.
 
 ## Verifikasi
 `npx tsc --noEmit`
