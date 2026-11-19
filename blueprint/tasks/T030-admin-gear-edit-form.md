@@ -30,9 +30,9 @@ Membangun halaman form edit alat rental (`app/admin/products/[id]/edit/page.tsx`
    - Render `GearForm` dengan `initialData={gear}` dan `isEditing={true}`.
 
 ## Kriteria selesai
-- [ ] Form edit terisi otomatis dengan data alat lama (nama, tarif, nomor seri, kelengkapan, status).
-- [ ] Admin dapat memperbarui tarif atau status tanpa harus mengunggah ulang foto lama.
-- [ ] Sukses update mengarahkan kembali ke tabel inventaris dengan pesan sukses.
+- [x] Form edit terisi otomatis dengan data alat lama (nama, tarif, nomor seri, kelengkapan, status).
+- [x] Admin dapat memperbarui tarif atau status tanpa harus mengunggah ulang foto lama.
+- [x] Sukses update mengarahkan kembali ke tabel inventaris dengan pesan sukses.
 
 ## Verifikasi
 `npx tsc --noEmit`
