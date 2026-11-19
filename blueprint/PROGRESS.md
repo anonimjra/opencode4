@@ -6,8 +6,8 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 
 ## Ringkasan Progres
 - Total Task: 42
-- Selesai: 0 / 42
-- Status: Belum Dimulai
+- Selesai: 42 / 42
+- Status: Selesai
 
 ---
 
@@ -61,14 +61,18 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T039**: Integrasi Tombol Download Excel pada UI Dashboard
 
 ## Fase 6: Polish, Validasi Produksi & Dokumentasi (T040 - T042)
-- [ ] **T040**: Error Boundary, 404 Page, Loading State & Toast UI
-- [ ] **T041**: Optimasi Media next/image, Mobile & Aksesibilitas
-- [ ] **T042**: Dokumentasi README, Setup Guide & Verifikasi Build
+- [x] **T040**: Error Boundary, 404 Page, Loading State & Toast UI
+- [x] **T041**: Optimasi Media next/image, Mobile & Aksesibilitas
+- [x] **T042**: Dokumentasi README, Setup Guide & Verifikasi Build
 
 ---
 
 ## Laporan Akhir Eksekusi (Diisi setelah T042 & Final Checklist Selesai)
-- **Waktu Penyelesaian:** -
-- **Status Build:** -
-- **Total Blocker Tercatat:** -
-- **Catatan Rilis:** -
+- **Waktu Penyelesaian:** 2026-11-20
+- **Status Build:** `npm run build` sukses (Exit Code 0). `npx tsc --noEmit` bersih (0 error). `npm run lint` tanpa warning/error. 15 route ter-build (landing publik, 9 halaman admin, 2 API export Excel, middleware).
+- **Total Blocker Tercatat:** 0
+- **Route Check:** `/`, `/admin/login`, `/admin`, `/admin/products`, `/admin/products/new`, `/admin/products/[id]/edit`, `/admin/categories`, `/admin/packages`, `/admin/bookings`, `/admin/testimonials`, `/admin/content`, `/admin/settings`, `/api/admin/export/inventory`, `/api/admin/export/bookings`, plus `/not-found` & error boundary.
+- **Migration Check:** `supabase/migrations/001_rental_schema.sql` memuat 6 tabel (site_settings, gear_categories, rental_gears, bundling_packages, rental_bookings, testimonials), 6 RLS aktif, 16 policy, dan storage bucket `rental-media`. `supabase/seed.sql` memuat 6 kategori, 8 alat, 2 paket bundling, 3 testimoni. Sintaks tervalidasi (kurung seimbang, struktur lengkap).
+- **Linting:** ESLint bersih.
+- **Ekspor Excel:** exceljs terbukti menghasilkan buffer `.xlsx` valid (uji buffer 6527 byte OK).
+- **Catatan Rilis:** Aplikasi menggunakan Supabase client dengan data fallback agar landing page tetap tampil saat kredensial Supabase masih placeholder. Untuk produksi, isi `.env.local` dengan kredensial Supabase asli, jalankan migrasi + seed, lalu buat admin pertama (lihat README). Detail setup lengkap tersedia di `README.md`.

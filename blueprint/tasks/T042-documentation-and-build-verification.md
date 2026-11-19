@@ -47,9 +47,9 @@ Menyusun dokumentasi lengkap proyek pada file `README.md` (panduan instalasi lok
 3. Buka `blueprint/PROGRESS.md`, tandai seluruh task `[x]`, dan isi laporan akhir eksekusi.
 
 ## Kriteria selesai
-- [ ] Berkas `README.md` memuat instruksi yang jelas dan komprehensif.
-- [ ] Perintah `npm run build` sukses (Exit Code 0).
-- [ ] Seluruh kriteria di `blueprint/99-FINAL-CHECKLIST.md` terpenuhi.
+- [x] Berkas `README.md` memuat instruksi yang jelas dan komprehensif.
+- [x] Perintah `npm run build` sukses (Exit Code 0).
+- [x] Seluruh kriteria di `blueprint/99-FINAL-CHECKLIST.md` terpenuhi.
 
 ## Verifikasi
 `npm run build && npx tsc --noEmit`
