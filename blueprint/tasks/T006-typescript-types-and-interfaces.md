@@ -27,8 +27,8 @@ Membuat file definisi tipe TypeScript (`types/database.ts` dan `types/index.ts`)
    - Ekspor DTO form: `GearFormInput`, `BundlingPackageInput`, `BookingFormInput`, `SiteSettingsInput`.
 
 ## Kriteria selesai
-- [ ] Berkas tipe TypeScript bersih dari tipe `any`.
-- [ ] Tipe `RentalGear` memuat tarif ganda `rate_12h` dan `rate_24h` serta `accessories_included`.
+- [x] Berkas tipe TypeScript bersih dari tipe `any`.
+- [x] Tipe `RentalGear` memuat tarif ganda `rate_12h` dan `rate_24h` serta `accessories_included`.
 
 ## Verifikasi
 `npx tsc --noEmit`

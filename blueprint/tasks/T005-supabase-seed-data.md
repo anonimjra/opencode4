@@ -45,8 +45,8 @@ Menyediakan berkas seed data realistis (`supabase/seed.sql`) untuk rental kamera
 6. Masukkan 3 ulasan pada `testimonials` dari videografer profesional.
 
 ## Kriteria selesai
-- [ ] Berkas `supabase/seed.sql` tervalidasi tanpa error.
-- [ ] Seluruh alat memiliki tarif 12h & 24h serta rincian kelengkapan bawaan.
+- [x] Berkas `supabase/seed.sql` tervalidasi tanpa error.
+- [x] Seluruh alat memiliki tarif 12h & 24h serta rincian kelengkapan bawaan.
 
 ## Verifikasi
 Pemeriksaan integritas sintaks PostgreSQL pada file `supabase/seed.sql`.
