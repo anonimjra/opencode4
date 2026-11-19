@@ -55,10 +55,10 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T035**: Admin Kelola Pengaturan Brand & Palet Warna Cinema
 
 ## Fase 5: Server-side Excel Export Engine Khusus Rental (T036 - T039)
-- [ ] **T036**: ExcelJS Builder Service Helper & Formatting Cinema Dark
-- [ ] **T037**: Server Route Handler Export Excel Inventaris Alat
-- [ ] **T038**: Server Route Handler Export Excel Rekap Booking Sewa
-- [ ] **T039**: Integrasi Tombol Download Excel pada UI Dashboard
+- [x] **T036**: ExcelJS Builder Service Helper & Formatting Cinema Dark
+- [x] **T037**: Server Route Handler Export Excel Inventaris Alat
+- [x] **T038**: Server Route Handler Export Excel Rekap Booking Sewa
+- [x] **T039**: Integrasi Tombol Download Excel pada UI Dashboard
 
 ## Fase 6: Polish, Validasi Produksi & Dokumentasi (T040 - T042)
 - [ ] **T040**: Error Boundary, 404 Page, Loading State & Toast UI

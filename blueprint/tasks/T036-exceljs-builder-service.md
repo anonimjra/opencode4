@@ -36,9 +36,9 @@ Membangun modul helper utilitas pembuatan spreadsheet (`lib/excel/builder.ts`) m
      - Konversi workbook menjadi buffer binary array (`await workbook.xlsx.writeBuffer()`).
 
 ## Kriteria selesai
-- [ ] Modul `lib/excel/builder.ts` terbuat tanpa error tipe.
-- [ ] Header worksheet diformat dengan warna tema cinema dark dan font tebal putih.
-- [ ] Lebar kolom menyesuaikan secara dinamis dengan panjang data.
+- [x] Modul `lib/excel/builder.ts` terbuat tanpa error tipe.
+- [x] Header worksheet diformat dengan warna tema cinema dark dan font tebal putih.
+- [x] Lebar kolom menyesuaikan secara dinamis dengan panjang data.
 
 ## Verifikasi
 `npx tsc --noEmit`
