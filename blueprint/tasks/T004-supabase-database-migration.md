@@ -38,9 +38,9 @@ Membuat berkas migrasi SQL lengkap (`supabase/migrations/001_rental_schema.sql`)
 6. Buat Storage Bucket `rental-media` dengan policy read publik dan write hanya role `authenticated`.
 
 ## Kriteria selesai
-- [ ] Berkas DDL SQL memuat seluruh kolom spesifik rental (tarif 12/24 jam, nomor seri, kelengkapan, status unit).
-- [ ] Aturan RLS melindungi data sensitif dan mengizinkan booking sewa dari publik.
-- [ ] Konfigurasi storage bucket `rental-media` siap pakai.
+- [x] Berkas DDL SQL memuat seluruh kolom spesifik rental (tarif 12/24 jam, nomor seri, kelengkapan, status unit).
+- [x] Aturan RLS melindungi data sensitif dan mengizinkan booking sewa dari publik.
+- [x] Konfigurasi storage bucket `rental-media` siap pakai.
 
 ## Verifikasi
 Pemeriksaan integritas sintaks PostgreSQL pada file migrasi.

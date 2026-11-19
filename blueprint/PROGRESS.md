@@ -15,7 +15,7 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T001**: Inisialisasi Project Next.js, TypeScript & Tooling Rental Kamera
 - [x] **T002**: Konfigurasi Tailwind CSS, Font & Theme Variables Cinema Dark
 - [x] **T003**: Konfigurasi Environment & Supabase Client Setup
-- [ ] **T004**: Skema Database Supabase DDL Migration & RLS Policies
+- [x] **T004**: Skema Database Supabase DDL Migration & RLS Policies
 - [ ] **T005**: Seed Data Katalog Alat Lensa Nusantara Rental
 - [ ] **T006**: Definisi TypeScript Types & Database Interfaces
 - [ ] **T007**: Utility Helper Functions (Rupiah, Durasi Sewa, WhatsApp)
