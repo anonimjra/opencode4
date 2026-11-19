@@ -28,9 +28,9 @@ Membangun komponen filter kategori alat interaktif (`components/landing/GearCate
    - Indikator aktif: Tab aktif berlatar warna crimson solid (`bg-primary text-white shadow-lg shadow-rose-950`), tab tidak aktif berlatar gelap `#1F2937` (`text-gray-300 hover:bg-[#374151] border border-gray-700`).
 
 ## Kriteria selesai
-- [ ] Tab filter dapat digeser horizontal di layar ponsel.
-- [ ] Mengklik tab memicu callback `onSelectCategory` secara instan.
-- [ ] Indikator visual tab aktif terlihat tajam dan modern.
+- [x] Tab filter dapat digeser horizontal di layar ponsel.
+- [x] Mengklik tab memicu callback `onSelectCategory` secara instan.
+- [x] Indikator visual tab aktif terlihat tajam dan modern.
 
 ## Verifikasi
 `npx tsc --noEmit`
