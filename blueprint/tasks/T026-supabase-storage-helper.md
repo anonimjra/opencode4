@@ -31,9 +31,9 @@ Membuat modul helper utilitas unggah berkas media (`lib/supabase/storage.ts`) ke
    - Menampilkan area drag-and-drop foto dengan pratinjau lokal instan.
 
 ## Kriteria selesai
-- [ ] Validasi menolak file non-gambar atau berukuran lebih dari 2MB.
-- [ ] Foto tersimpan rapi di Supabase Storage bucket `rental-media`.
-- [ ] Komponen ImageUploader mendukung pratinjau sebelum submit form.
+- [x] Validasi menolak file non-gambar atau berukuran lebih dari 2MB.
+- [x] Foto tersimpan rapi di Supabase Storage bucket `rental-media`.
+- [x] Komponen ImageUploader mendukung pratinjau sebelum submit form.
 
 ## Verifikasi
 `npx tsc --noEmit`
