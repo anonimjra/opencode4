@@ -42,9 +42,9 @@ Membangun halaman pengaturan brand dan tema visual cinema di `/admin/settings` b
    - Render `CinemaThemeSettingsForm`.
 
 ## Kriteria selesai
-- [ ] Admin dapat mengubah nama brand rental kamera dan logo.
-- [ ] Admin dapat memilih salah satu dari 4 preset tema cinema atau memilih warna custom.
-- [ ] Mengubah tema warna segera memperbarui CSS Variables pada seluruh antarmuka web.
+- [x] Admin dapat mengubah nama brand rental kamera dan logo.
+- [x] Admin dapat memilih salah satu dari 4 preset tema cinema atau memilih warna custom.
+- [x] Mengubah tema warna segera memperbarui CSS Variables pada seluruh antarmuka web.
 
 ## Verifikasi
 `npx tsc --noEmit`
