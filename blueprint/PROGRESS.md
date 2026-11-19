@@ -18,7 +18,7 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T004**: Skema Database Supabase DDL Migration & RLS Policies
 - [x] **T005**: Seed Data Katalog Alat Lensa Nusantara Rental
 - [x] **T006**: Definisi TypeScript Types & Database Interfaces
-- [ ] **T007**: Utility Helper Functions (Rupiah, Durasi Sewa, WhatsApp)
+- [x] **T007**: Utility Helper Functions (Rupiah, Durasi Sewa, WhatsApp)
 
 ## Fase 2: Public Rental E-Catalog Landing Page (T008 - T021)
 - [ ] **T008**: Public Layout, Font Loader, & SEO Meta Tags Rental Kamera

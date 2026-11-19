@@ -38,9 +38,9 @@ Membuat modul fungsi utilitas (`lib/utils.ts`, `lib/whatsapp.ts`, `lib/constants
 4. Buat `lib/constants.ts` dengan preset tema Crimson, Amber, Teal.
 
 ## Kriteria selesai
-- [ ] Fungsi `calculateRentalDuration` menghitung selisih hari dengan tepat (min 1 hari).
-- [ ] Template pesan WhatsApp memuat rincian tanggal sewa dan kesiapan kirim 2 KTP.
-- [ ] Fungsi `formatRupiah` dan `cn` tervalidasi.
+- [x] Fungsi `calculateRentalDuration` menghitung selisih hari dengan tepat (min 1 hari).
+- [x] Template pesan WhatsApp memuat rincian tanggal sewa dan kesiapan kirim 2 KTP.
+- [x] Fungsi `formatRupiah` dan `cn` tervalidasi.
 
 ## Verifikasi
 `npx tsc --noEmit`
