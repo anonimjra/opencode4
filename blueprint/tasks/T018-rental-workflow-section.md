@@ -26,8 +26,8 @@ Membangun section Alur Sewa (`components/landing/RentalWorkflowSection.tsx`) yan
      - Langkah 5: *"5. Pengembalian & Ambil KTP"*: Kembalikan unit sesuai jadwal, cek kondisi akhir, dan ambil kembali kartu identitas Anda.
 
 ## Kriteria selesai
-- [ ] Section memiliki atribut `id="workflow"`.
-- [ ] 5 langkah alur sewa tersaji secara visual dan mudah dipahami oleh pengguna baru.
+- [x] Section memiliki atribut `id="workflow"`.
+- [x] 5 langkah alur sewa tersaji secara visual dan mudah dipahami oleh pengguna baru.
 
 ## Verifikasi
 `npx tsc --noEmit`
