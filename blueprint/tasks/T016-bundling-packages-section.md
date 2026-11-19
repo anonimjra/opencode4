@@ -32,9 +32,9 @@ Membangun section Paket Bundling Hemat (`components/landing/BundlingPackagesSect
      - Tombol "Booking Paket Ini" (menghubungkan ke WhatsApp dengan template paket sewa).
 
 ## Kriteria selesai
-- [ ] Section memiliki atribut `id="packages"`.
-- [ ] Menampilkan daftar alat yang termasuk dalam paket secara jelas.
-- [ ] Tombol booking WhatsApp mengarahkan ke pemesanan paket terkait.
+- [x] Section memiliki atribut `id="packages"`.
+- [x] Menampilkan daftar alat yang termasuk dalam paket secara jelas.
+- [x] Tombol booking WhatsApp mengarahkan ke pemesanan paket terkait.
 
 ## Verifikasi
 `npx tsc --noEmit`
