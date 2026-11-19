@@ -47,9 +47,9 @@ Membangun Server Route Handler (`app/api/admin/export/bookings/route.ts`) yang m
    - Kembalikan respon binary download dengan header OpenXML Excel.
 
 ## Kriteria selesai
-- [ ] Endpoint `/api/admin/export/bookings` terproteksi dengan sesi login admin.
-- [ ] Mengembalikan file binary Excel dengan nama `rekap-sewa-YYYY-MM-DD.xlsx`.
-- [ ] Kolom spreadsheet mencakup Tanggal, Nama Penyewa, Kontak WA, Alat, Jadwal Ambil/Kembali, Durasi, Total Biaya, dan Status.
+- [x] Endpoint `/api/admin/export/bookings` terproteksi dengan sesi login admin.
+- [x] Mengembalikan file binary Excel dengan nama `rekap-sewa-YYYY-MM-DD.xlsx`.
+- [x] Kolom spreadsheet mencakup Tanggal, Nama Penyewa, Kontak WA, Alat, Jadwal Ambil/Kembali, Durasi, Total Biaya, dan Status.
 
 ## Verifikasi
 `npx tsc --noEmit`
