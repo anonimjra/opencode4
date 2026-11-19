@@ -28,9 +28,9 @@ Membangun section Syarat & Jaminan Sewa (`components/landing/RentalTermsSection.
    - Tombol "Tanya Syarat Khusus via WhatsApp".
 
 ## Kriteria selesai
-- [ ] Section memiliki atribut `id="terms"`.
-- [ ] Menyajikan 3 pilar syarat jaminan identitas sewa secara tegas dan transparan.
-- [ ] Teks ketentuan dari database terender rapi.
+- [x] Section memiliki atribut `id="terms"`.
+- [x] Menyajikan 3 pilar syarat jaminan identitas sewa secara tegas dan transparan.
+- [x] Teks ketentuan dari database terender rapi.
 
 ## Verifikasi
 `npx tsc --noEmit`
