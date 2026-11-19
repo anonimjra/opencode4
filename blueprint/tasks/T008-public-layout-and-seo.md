@@ -27,9 +27,9 @@ Menyiapkan root layout (`app/layout.tsx`) dan public layout (`app/(public)/layou
 2. Buat `app/(public)/layout.tsx` sebagai Server Component wrapper area publik.
 
 ## Kriteria selesai
-- [ ] Font terhubung rapi tanpa CLS.
-- [ ] Metadata SEO spesifik industri rental kamera terkonfigurasi.
-- [ ] Latar belakang cinema dark aktif pada root body.
+- [x] Font terhubung rapi tanpa CLS.
+- [x] Metadata SEO spesifik industri rental kamera terkonfigurasi.
+- [x] Latar belakang cinema dark aktif pada root body.
 
 ## Verifikasi
 `npx tsc --noEmit`

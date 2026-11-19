@@ -21,20 +21,20 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T007**: Utility Helper Functions (Rupiah, Durasi Sewa, WhatsApp)
 
 ## Fase 2: Public Rental E-Catalog Landing Page (T008 - T021)
-- [ ] **T008**: Public Layout, Font Loader, & SEO Meta Tags Rental Kamera
-- [ ] **T009**: Theme Provider Dinamis untuk Aksen Warna Cinema
-- [ ] **T010**: Navbar Publik & Mobile Drawer Menu Rental
-- [ ] **T011**: Hero Section Banner Cinematic Studio & Garansi
-- [ ] **T012**: Section Tentang Studio Rental & Standar Kalibrasi
-- [ ] **T013**: Komponen Filter Kategori Alat Interaktif
-- [ ] **T014**: Kartu Alat Rental dengan Tarif 12/24 Jam & Kelengkapan
-- [ ] **T015**: Modal Pop-up Quick View & Kalkulator Sewa Interaktif
-- [ ] **T016**: Section Paket Bundling Hemat Shooting
-- [ ] **T017**: Section Syarat & Ketentuan Jaminan Sewa
-- [ ] **T018**: Section 5 Langkah Alur Sewa Alat
-- [ ] **T019**: Section Lokasi Studio & Jam Buka Pick-up
-- [ ] **T020**: Testimoni Creator & Footer Publik dengan Floating WhatsApp
-- [ ] **T021**: Assembling Landing Page Utama Publik dengan Supabase
+- [x] **T008**: Public Layout, Font Loader, & SEO Meta Tags Rental Kamera
+- [x] **T009**: Theme Provider Dinamis untuk Aksen Warna Cinema
+- [x] **T010**: Navbar Publik & Mobile Drawer Menu Rental
+- [x] **T011**: Hero Section Banner Cinematic Studio & Garansi
+- [x] **T012**: Section Tentang Studio Rental & Standar Kalibrasi
+- [x] **T013**: Komponen Filter Kategori Alat Interaktif
+- [x] **T014**: Kartu Alat Rental dengan Tarif 12/24 Jam & Kelengkapan
+- [x] **T015**: Modal Pop-up Quick View & Kalkulator Sewa Interaktif
+- [x] **T016**: Section Paket Bundling Hemat Shooting
+- [x] **T017**: Section Syarat & Ketentuan Jaminan Sewa
+- [x] **T018**: Section 5 Langkah Alur Sewa Alat
+- [x] **T019**: Section Lokasi Studio & Jam Buka Pick-up
+- [x] **T020**: Testimoni Creator & Footer Publik dengan Floating WhatsApp
+- [x] **T021**: Assembling Landing Page Utama Publik dengan Supabase
 
 ## Fase 3: Autentikasi Admin & Proteksi Rute (T022 - T024)
 - [ ] **T022**: Next.js Middleware untuk Proteksi Sesi Admin
