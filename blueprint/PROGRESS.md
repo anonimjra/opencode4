@@ -42,17 +42,17 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T024**: Layout Dashboard Admin dengan Sidebar & Header
 
 ## Fase 4: Fitur Admin Dashboard & Manajemen Rental (T025 - T035)
-- [ ] **T025**: Halaman Ringkasan Dashboard Overview & Metrik Rental
-- [ ] **T026**: Supabase Storage Helper untuk Foto Alat Kamera
-- [ ] **T027**: Admin Kelola Kategori Alat & Brand
-- [ ] **T028**: Admin Kelola Inventaris Alat - List & Search
-- [ ] **T029**: Admin Kelola Alat - Form Tambah Tarif 12/24 Jam & SN
-- [ ] **T030**: Admin Kelola Alat - Form Edit & Kelengkapan Bawaan
-- [ ] **T031**: Admin Kelola Paket Bundling Shooting
-- [ ] **T032**: Admin Kelola Antrean Booking Sewa Masuk
-- [ ] **T033**: Admin Kelola Testimoni Creator
-- [ ] **T034**: Admin Kelola Profil Studio, Syarat Jaminan & Jam Buka
-- [ ] **T035**: Admin Kelola Pengaturan Brand & Palet Warna Cinema
+- [x] **T025**: Halaman Ringkasan Dashboard Overview & Metrik Rental
+- [x] **T026**: Supabase Storage Helper untuk Foto Alat Kamera
+- [x] **T027**: Admin Kelola Kategori Alat & Brand
+- [x] **T028**: Admin Kelola Inventaris Alat - List & Search
+- [x] **T029**: Admin Kelola Alat - Form Tambah Tarif 12/24 Jam & SN
+- [x] **T030**: Admin Kelola Alat - Form Edit & Kelengkapan Bawaan
+- [x] **T031**: Admin Kelola Paket Bundling Shooting
+- [x] **T032**: Admin Kelola Antrean Booking Sewa Masuk
+- [x] **T033**: Admin Kelola Testimoni Creator
+- [x] **T034**: Admin Kelola Profil Studio, Syarat Jaminan & Jam Buka
+- [x] **T035**: Admin Kelola Pengaturan Brand & Palet Warna Cinema
 
 ## Fase 5: Server-side Excel Export Engine Khusus Rental (T036 - T039)
 - [ ] **T036**: ExcelJS Builder Service Helper & Formatting Cinema Dark

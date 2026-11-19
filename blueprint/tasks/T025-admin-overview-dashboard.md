@@ -36,8 +36,8 @@ Membangun halaman utama dashboard admin (`app/admin/page.tsx`) yang menyajikan r
      - "Export Excel Inventaris" -> `/api/admin/export/inventory`
 
 ## Kriteria selesai
-- [ ] Halaman ringkasan dashboard memuat data statistik rental dengan akurat.
-- [ ] Tombol aksi cepat mengarahkan ke modul yang tepat.
+- [x] Halaman ringkasan dashboard memuat data statistik rental dengan akurat.
+- [x] Tombol aksi cepat mengarahkan ke modul yang tepat.
 
 ## Verifikasi
 `npx tsc --noEmit`
