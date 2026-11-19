@@ -45,9 +45,9 @@ Membangun modul manajemen antrean booking sewa di `/admin/bookings` beserta anta
    - Render `RentalBookingsTable`.
 
 ## Kriteria selesai
-- [ ] Admin dapat melihat daftar antrean booking sewa lengkap dengan tanggal dan total biaya.
-- [ ] Status booking dapat diubah secara langsung dari tabel.
-- [ ] Tombol chat WA mengarahkan langsung ke WhatsApp penyewa.
+- [x] Admin dapat melihat daftar antrean booking sewa lengkap dengan tanggal dan total biaya.
+- [x] Status booking dapat diubah secara langsung dari tabel.
+- [x] Tombol chat WA mengarahkan langsung ke WhatsApp penyewa.
 
 ## Verifikasi
 `npx tsc --noEmit`
