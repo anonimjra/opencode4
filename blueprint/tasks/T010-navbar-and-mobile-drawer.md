@@ -29,9 +29,9 @@ Membangun bilah navigasi publik (`components/landing/Navbar.tsx`) bernuansa dark
    - Ikon hamburger `Menu` dari `lucide-react` di mobile.
 
 ## Kriteria selesai
-- [ ] Navbar sticky di bagian atas dengan estetika dark mode.
-- [ ] Tautan navigasi smooth-scroll menuju section id terkait.
-- [ ] Drawer mobile berfungsi membuka dan menutup dengan mulus.
+- [x] Navbar sticky di bagian atas dengan estetika dark mode.
+- [x] Tautan navigasi smooth-scroll menuju section id terkait.
+- [x] Drawer mobile berfungsi membuka dan menutup dengan mulus.
 
 ## Verifikasi
 `npx tsc --noEmit`
