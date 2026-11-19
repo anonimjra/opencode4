@@ -30,9 +30,9 @@ Membangun komponen Hero Section (`components/landing/HeroSection.tsx`) bernuansa
        - Tombol 2: "Konsultasi Kebutuhan Shooting" (Anchor link ke link WA, style outline netral).
 
 ## Kriteria selesai
-- [ ] Section memiliki id `hero` untuk target navigasi.
-- [ ] Gambar menggunakan `priority={true}` untuk LCP cepat.
-- [ ] Teks kontras tinggi dan mudah dibaca di atas tema dark.
+- [x] Section memiliki id `hero` untuk target navigasi.
+- [x] Gambar menggunakan `priority={true}` untuk LCP cepat.
+- [x] Teks kontras tinggi dan mudah dibaca di atas tema dark.
 
 ## Verifikasi
 `npx tsc --noEmit`
