@@ -37,9 +37,9 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 - [x] **T021**: Assembling Landing Page Utama Publik dengan Supabase
 
 ## Fase 3: Autentikasi Admin & Proteksi Rute (T022 - T024)
-- [ ] **T022**: Next.js Middleware untuk Proteksi Sesi Admin
-- [ ] **T023**: Halaman Login Admin & Form Autentikasi
-- [ ] **T024**: Layout Dashboard Admin dengan Sidebar & Header
+- [x] **T022**: Next.js Middleware untuk Proteksi Sesi Admin
+- [x] **T023**: Halaman Login Admin & Form Autentikasi
+- [x] **T024**: Layout Dashboard Admin dengan Sidebar & Header
 
 ## Fase 4: Fitur Admin Dashboard & Manajemen Rental (T025 - T035)
 - [ ] **T025**: Halaman Ringkasan Dashboard Overview & Metrik Rental

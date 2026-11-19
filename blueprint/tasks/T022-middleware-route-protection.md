@@ -34,9 +34,9 @@ Mengimplementasikan rute penjagaan (route guarding) pada Next.js Middleware (`mi
      ```
 
 ## Kriteria selesai
-- [ ] Mengakses `/admin` tanpa login otomatis ter-redirect ke `/admin/login`.
-- [ ] Endpoint `/api/admin/*` terlindungi dengan HTTP 401.
-- [ ] Pengguna yang sudah login diarahkan ke dashboard jika membuka rute login.
+- [x] Mengakses `/admin` tanpa login otomatis ter-redirect ke `/admin/login`.
+- [x] Endpoint `/api/admin/*` terlindungi dengan HTTP 401.
+- [x] Pengguna yang sudah login diarahkan ke dashboard jika membuka rute login.
 
 ## Verifikasi
 `npx tsc --noEmit`
