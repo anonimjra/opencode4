@@ -41,9 +41,9 @@ Membangun komponen kartu produk alat multimedia (`components/landing/RentalGearC
      - Tombol 2: "Booking WA" (Ikon WhatsApp, membuka link yang dibuat oleh `generateRentalWhatsAppLink(...)`).
 
 ## Kriteria selesai
-- [ ] Kartu menampilkan foto, badge Ready/Disewa, spesifikasi, dan kelengkapan tas/baterai.
-- [ ] Menampilkan dua opsi tarif 12 jam dan 24 jam secara jelas.
-- [ ] Tombol Quick View dan Booking WA berfungsi sebagaimana mestinya.
+- [x] Kartu menampilkan foto, badge Ready/Disewa, spesifikasi, dan kelengkapan tas/baterai.
+- [x] Menampilkan dua opsi tarif 12 jam dan 24 jam secara jelas.
+- [x] Tombol Quick View dan Booking WA berfungsi sebagaimana mestinya.
 
 ## Verifikasi
 `npx tsc --noEmit`
