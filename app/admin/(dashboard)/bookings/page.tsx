@@ -1,6 +1,6 @@
-import { FileSpreadsheet } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import RentalBookingsTable from "@/components/admin/RentalBookingsTable";
+import ExportExcelButton from "@/components/admin/ExportExcelButton";
 import { FALLBACK_SETTINGS } from "@/lib/data/rental";
 import type { RentalBooking, SiteSettings } from "@/types/database";
 
@@ -31,13 +31,10 @@ export default async function AdminBookingsPage() {
             {bookings.length} total booking • {pendingCount} menunggu verifikasi.
           </p>
         </div>
-        <a
-          href="/api/admin/export/bookings"
-          className="inline-flex items-center gap-2 rounded-xl border border-gray-700 px-4 py-2.5 text-sm font-semibold text-gray-200 hover:bg-white/5 transition-colors"
-        >
-          <FileSpreadsheet className="h-4 w-4" />
-          Export Excel Rekap
-        </a>
+        <ExportExcelButton
+          endpoint="/api/admin/export/bookings"
+          label="Export Rekap Sewa (.xlsx)"
+        />
       </div>
 
       <RentalBookingsTable bookings={bookings} brandName={brandName} />

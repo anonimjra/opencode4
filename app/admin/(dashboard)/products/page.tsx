@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { Plus, FileSpreadsheet } from "lucide-react";
+import { Plus } from "lucide-react";
 import { createClient } from "@/lib/supabase/server";
 import GearInventoryTable from "@/components/admin/GearInventoryTable";
+import ExportExcelButton from "@/components/admin/ExportExcelButton";
 import type { GearCategory, RentalGear } from "@/types/database";
 
 export default async function AdminProductsPage() {
@@ -34,13 +35,10 @@ export default async function AdminProductsPage() {
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <a
-            href="/api/admin/export/inventory"
-            className="inline-flex items-center gap-2 rounded-xl border border-gray-700 px-4 py-2.5 text-sm font-semibold text-gray-200 hover:bg-white/5 transition-colors"
-          >
-            <FileSpreadsheet className="h-4 w-4" />
-            Export Excel
-          </a>
+          <ExportExcelButton
+            endpoint="/api/admin/export/inventory"
+            label="Export Inventaris (.xlsx)"
+          />
           <Link
             href="/admin/products/new"
             className="inline-flex items-center gap-2 rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-primary-hover transition-colors"

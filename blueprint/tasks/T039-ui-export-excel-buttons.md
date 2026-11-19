@@ -36,9 +36,9 @@ Mengintegrasikan komponen tombol "Export Excel" (`components/admin/ExportExcelBu
    - Pasang `<ExportExcelButton endpoint="/api/admin/export/bookings" label="Export Rekap Sewa (.xlsx)" />`.
 
 ## Kriteria selesai
-- [ ] Tombol Export Excel tampil di halaman inventaris alat dan antrean booking.
-- [ ] Mengklik tombol menampilkan indikator proses loading.
-- [ ] File Excel `.xlsx` terunduh otomatis ke folder Download komputer pengguna.
+- [x] Tombol Export Excel tampil di halaman inventaris alat dan antrean booking.
+- [x] Mengklik tombol menampilkan indikator proses loading.
+- [x] File Excel `.xlsx` terunduh otomatis ke folder Download komputer pengguna.
 
 ## Verifikasi
 `npx tsc --noEmit`
