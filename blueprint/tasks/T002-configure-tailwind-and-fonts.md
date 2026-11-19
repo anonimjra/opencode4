@@ -35,8 +35,8 @@ Mengonfigurasi Tailwind CSS dengan palet warna Cinema Dark (`#0B0F17` / `#0F172A
    - Berikan `scroll-behavior: smooth;` pada tag `html` dan background dasar gelap `#0B0F17`.
 
 ## Kriteria selesai
-- [ ] Tailwind CSS terkonfigurasi dengan kelas utilitas `bg-primary`, `text-primary`.
-- [ ] CSS Variables default bertema Cinema Dark aktif.
+- [x] Tailwind CSS terkonfigurasi dengan kelas utilitas `bg-primary`, `text-primary`.
+- [x] CSS Variables default bertema Cinema Dark aktif.
 
 ## Verifikasi
 `npx tsc --noEmit`

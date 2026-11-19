@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-cinema-primary: #e11d48;
+  --color-cinema-hover: #be123c;
+  --color-cinema-light: #fff1f2;
+  --color-cinema-foreground: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0b0f17;
+  color: #f9fafb;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

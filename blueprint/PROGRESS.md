@@ -13,8 +13,8 @@ Dokumen ini adalah matriks pelacak progres seluruh task yang wajib diperbarui ol
 
 ## Fase 1: Fondasi, Database & Core Infrastructure (T001 - T007)
 - [x] **T001**: Inisialisasi Project Next.js, TypeScript & Tooling Rental Kamera
-- [ ] **T002**: Konfigurasi Tailwind CSS, Font & Theme Variables Cinema Dark
-- [ ] **T003**: Konfigurasi Environment & Supabase Client Setup
+- [x] **T002**: Konfigurasi Tailwind CSS, Font & Theme Variables Cinema Dark
+- [x] **T003**: Konfigurasi Environment & Supabase Client Setup
 - [ ] **T004**: Skema Database Supabase DDL Migration & RLS Policies
 - [ ] **T005**: Seed Data Katalog Alat Lensa Nusantara Rental
 - [ ] **T006**: Definisi TypeScript Types & Database Interfaces

@@ -31,9 +31,9 @@ Menyiapkan berkas template variabel lingkungan (`.env.example` & `.env.local`) s
 5. Buat `lib/supabase/middleware.ts` dengan fungsi `updateSession(request: NextRequest)`.
 
 ## Kriteria selesai
-- [ ] Klien browser di `lib/supabase/client.ts` tervalidasi.
-- [ ] Klien server di `lib/supabase/server.ts` mengelola cookie sesi dengan benar.
-- [ ] Helper middleware siap digunakan.
+- [x] Klien browser di `lib/supabase/client.ts` tervalidasi.
+- [x] Klien server di `lib/supabase/server.ts` mengelola cookie sesi dengan benar.
+- [x] Helper middleware siap digunakan.
 
 ## Verifikasi
 `npx tsc --noEmit`
