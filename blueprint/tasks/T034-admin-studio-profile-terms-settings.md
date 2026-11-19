@@ -38,9 +38,9 @@ Membangun halaman manajemen profil studio dan syarat sewa di `/admin/content` be
    - Render `StudioContentForm`.
 
 ## Kriteria selesai
-- [ ] Admin dapat memperbarui syarat jaminan sewa dan alamat studio fisik.
-- [ ] Perubahan langsung ter-update di landing page publik.
-- [ ] Nomor WhatsApp pengelola tersimpan dengan format standar.
+- [x] Admin dapat memperbarui syarat jaminan sewa dan alamat studio fisik.
+- [x] Perubahan langsung ter-update di landing page publik.
+- [x] Nomor WhatsApp pengelola tersimpan dengan format standar.
 
 ## Verifikasi
 `npx tsc --noEmit`
