@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import ThemeProvider from "@/components/shared/ThemeProvider";
+import { ToastProvider } from "@/components/ui/Toast";
 import "./globals.css";
 
 const inter = Inter({
@@ -61,7 +62,9 @@ export default function RootLayout({
   return (
     <html lang="id" className={`${inter.variable} ${plusJakarta.variable}`}>
       <body className="bg-[#0B0F17] text-[#F9FAFB] antialiased selection:bg-rose-500 selection:text-white font-sans">
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <ToastProvider>{children}</ToastProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

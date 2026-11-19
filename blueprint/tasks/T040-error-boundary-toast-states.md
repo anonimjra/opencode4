@@ -32,9 +32,9 @@ Menyediakan halaman penanganan error global (`app/error.tsx`), halaman 404 ramah
    - Komposisi shimmer skeleton menyerupai kartu alat dan tabel data gelap untuk mencegah pergeseran tata letak mendadak.
 
 ## Kriteria selesai
-- [ ] Error boundary menangkap error tanpa layar putih kosong.
-- [ ] Halaman 404 tampil estetik saat rute salah diakses.
-- [ ] Toast notifikasi muncul saat booking terkirim atau admin menyimpan data.
+- [x] Error boundary menangkap error tanpa layar putih kosong.
+- [x] Halaman 404 tampil estetik saat rute salah diakses.
+- [x] Toast notifikasi muncul saat booking terkirim atau admin menyimpan data.
 
 ## Verifikasi
 `npx tsc --noEmit`

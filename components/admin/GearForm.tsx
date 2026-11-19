@@ -6,6 +6,7 @@ import Link from "next/link";
 import { AlertCircle, Save, X } from "lucide-react";
 import ImageUploader from "@/components/shared/ImageUploader";
 import Button from "@/components/ui/Button";
+import { useToast } from "@/components/ui/Toast";
 import { createRentalGear, updateRentalGear } from "@/app/actions/products";
 import type { GearCategory, GearStatus, RentalGear } from "@/types/database";
 
@@ -27,6 +28,7 @@ export default function GearForm({
   isEditing = false,
 }: GearFormProps) {
   const router = useRouter();
+  const { showToast } = useToast();
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [imageRemoved, setImageRemoved] = useState(false);
   const [newImageUrl, setNewImageUrl] = useState<string | null>(null);
@@ -52,10 +54,17 @@ export default function GearForm({
         : await createRentalGear(formData);
 
       if (result.success) {
+        showToast(
+          isEditing
+            ? "Alat rental berhasil diperbarui."
+            : "Alat rental baru berhasil ditambahkan.",
+          "success",
+        );
         router.push("/admin/products");
         router.refresh();
       } else {
         setError(result.error ?? "Terjadi kesalahan saat menyimpan.");
+        showToast(result.error ?? "Gagal menyimpan alat.", "error");
       }
     });
   }
