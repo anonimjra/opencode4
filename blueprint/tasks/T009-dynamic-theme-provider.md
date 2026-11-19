@@ -29,8 +29,8 @@ Membangun komponen `components/shared/ThemeProvider.tsx` yang menginjeksi nilai 
 4. Pasang `ThemeProvider` di `app/layout.tsx`.
 
 ## Kriteria selesai
-- [ ] CSS Variable `--color-cinema-primary` berhasil diinjeksikan ke root DOM.
-- [ ] Tersedia fallback warna Cinema Crimson jika data database belum termuat.
+- [x] CSS Variable `--color-cinema-primary` berhasil diinjeksikan ke root DOM.
+- [x] Tersedia fallback warna Cinema Crimson jika data database belum termuat.
 
 ## Verifikasi
 `npx tsc --noEmit`
