@@ -45,9 +45,9 @@ Membangun Server Route Handler (`app/api/admin/export/inventory/route.ts`) yang 
    - Kembalikan `new NextResponse(buffer, { headers: { ... } })` berformat attachment spreadsheet.
 
 ## Kriteria selesai
-- [ ] Endpoint `/api/admin/export/inventory` memblokir akses tanpa login admin (HTTP 401).
-- [ ] Mengembalikan file binary Excel dengan nama `inventaris-alat-YYYY-MM-DD.xlsx`.
-- [ ] Kolom spreadsheet mencakup Nomor Seri, Kelengkapan Bawaan, Tarif 12/24 Jam, dan Status Unit.
+- [x] Endpoint `/api/admin/export/inventory` memblokir akses tanpa login admin (HTTP 401).
+- [x] Mengembalikan file binary Excel dengan nama `inventaris-alat-YYYY-MM-DD.xlsx`.
+- [x] Kolom spreadsheet mencakup Nomor Seri, Kelengkapan Bawaan, Tarif 12/24 Jam, dan Status Unit.
 
 ## Verifikasi
 `npx tsc --noEmit`
