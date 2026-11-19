@@ -135,7 +135,7 @@ export default function BundlingPackageManager({
                     src={pkg.image_url}
                     alt={pkg.name}
                     fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                   />
                 ) : null}

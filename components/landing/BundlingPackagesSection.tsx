@@ -54,7 +54,7 @@ export default function BundlingPackagesSection({
                     src={pkg.image_url}
                     alt={pkg.name}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover"
                   />
                   {pkg.discount_note ? (

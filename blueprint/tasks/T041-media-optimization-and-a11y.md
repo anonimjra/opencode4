@@ -31,9 +31,9 @@ Melakukan audit dan optimasi menyeluruh pada rendering foto alat studio (`next/i
    - Pastikan tidak ada horizontal overflow pada tabel inventaris atau kartu alat.
 
 ## Kriteria selesai
-- [ ] Gambar disajikan dalam format WebP/AVIF beresolusi optimal.
-- [ ] Bebas dari peringatan "missing alt property" pada konsol build.
-- [ ] Tampilan tidak mengalami horizontal scroll pada lebar layar 360px.
+- [x] Gambar disajikan dalam format WebP/AVIF beresolusi optimal.
+- [x] Bebas dari peringatan "missing alt property" pada konsol build.
+- [x] Tampilan tidak mengalami horizontal scroll pada lebar layar 360px.
 
 ## Verifikasi
 `npm run build`
