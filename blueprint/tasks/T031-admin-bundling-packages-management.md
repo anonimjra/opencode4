@@ -40,9 +40,9 @@ Membangun modul manajemen paket bundling shooting di `/admin/packages` beserta S
    - Render `BundlingPackageManager`.
 
 ## Kriteria selesai
-- [ ] Admin dapat membuat paket bundling shooting baru dengan daftar alat yang jelas.
-- [ ] Paket tampil di landing page publik pada section paket hemat.
-- [ ] Hapus paket berfungsi dengan aman.
+- [x] Admin dapat membuat paket bundling shooting baru dengan daftar alat yang jelas.
+- [x] Paket tampil di landing page publik pada section paket hemat.
+- [x] Hapus paket berfungsi dengan aman.
 
 ## Verifikasi
 `npx tsc --noEmit`
