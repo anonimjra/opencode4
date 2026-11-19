@@ -49,9 +49,9 @@ Membangun halaman form tambah alat rental baru (`app/admin/products/new/page.tsx
    - Render `GearForm` dalam mode pembuatan baru (`isEditing={false}`).
 
 ## Kriteria selesai
-- [ ] Admin dapat mendaftarkan alat rental baru lengkap dengan tarif ganda 12h/24h dan nomor seri (SN).
-- [ ] Kelengkapan aksesoris bawaan tersimpan jelas.
-- [ ] Foto berhasil diunggah ke Supabase Storage dan data tersimpan di database.
+- [x] Admin dapat mendaftarkan alat rental baru lengkap dengan tarif ganda 12h/24h dan nomor seri (SN).
+- [x] Kelengkapan aksesoris bawaan tersimpan jelas.
+- [x] Foto berhasil diunggah ke Supabase Storage dan data tersimpan di database.
 
 ## Verifikasi
 `npx tsc --noEmit`
