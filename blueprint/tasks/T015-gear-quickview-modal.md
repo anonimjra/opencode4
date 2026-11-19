@@ -41,9 +41,9 @@ Membangun komponen modal Quick View (`components/landing/GearQuickViewModal.tsx`
          - Tombol Besar "Booking via WhatsApp Sekarang" (otomatis membawa data alat, tanggal sewa, dan estimasi biaya).
 
 ## Kriteria selesai
-- [ ] Modal terbuka saat tombol Quick View ditekan.
-- [ ] Mengubah tanggal atau durasi 12h/24h langsung mengkalkulasi estimasi biaya sewa secara realtime.
-- [ ] Tombol booking WhatsApp mengarahkan ke chat dengan template lengkap.
+- [x] Modal terbuka saat tombol Quick View ditekan.
+- [x] Mengubah tanggal atau durasi 12h/24h langsung mengkalkulasi estimasi biaya sewa secara realtime.
+- [x] Tombol booking WhatsApp mengarahkan ke chat dengan template lengkap.
 
 ## Verifikasi
 `npx tsc --noEmit`
