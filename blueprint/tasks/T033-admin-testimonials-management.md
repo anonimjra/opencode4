@@ -38,9 +38,9 @@ Membangun modul manajemen ulasan pelanggan di `/admin/testimonials` beserta Serv
    - Render `TestimonialManager`.
 
 ## Kriteria selesai
-- [ ] Admin dapat menambahkan ulasan kepuasan videografer/creator.
-- [ ] Rating tervalidasi 1 sampai 5 bintang.
-- [ ] Toggle status aktif langsung menyembunyikan atau menampilkan testimoni di halaman depan.
+- [x] Admin dapat menambahkan ulasan kepuasan videografer/creator.
+- [x] Rating tervalidasi 1 sampai 5 bintang.
+- [x] Toggle status aktif langsung menyembunyikan atau menampilkan testimoni di halaman depan.
 
 ## Verifikasi
 `npx tsc --noEmit`
