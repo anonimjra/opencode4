@@ -44,9 +44,9 @@ Membangun halaman inventaris alat admin (`app/admin/products/page.tsx`) dengan t
    - Render `GearInventoryTable`.
 
 ## Kriteria selesai
-- [ ] Daftar alat tampil lengkap dengan nomor seri (SN) dan tarif ganda 12h/24h.
-- [ ] Filter pencarian dan kategori bekerja secara instan tanpa reload browser.
-- [ ] Penggantian status unit langsung memicu revalidasi pada antarmuka publik.
+- [x] Daftar alat tampil lengkap dengan nomor seri (SN) dan tarif ganda 12h/24h.
+- [x] Filter pencarian dan kategori bekerja secara instan tanpa reload browser.
+- [x] Penggantian status unit langsung memicu revalidasi pada antarmuka publik.
 
 ## Verifikasi
 `npx tsc --noEmit`
