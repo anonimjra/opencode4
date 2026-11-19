@@ -39,9 +39,9 @@ Membangun modul manajemen kategori alat di `/admin/categories` beserta Server Ac
    - Render header dan `GearCategoryList`.
 
 ## Kriteria selesai
-- [ ] Admin dapat menambah, mengedit, dan menghapus kategori alat rental.
-- [ ] Kategori yang menaungi produk terlindungi dari penghapusan tidak sengaja.
-- [ ] Perubahan langsung tercermin pada filter landing page publik.
+- [x] Admin dapat menambah, mengedit, dan menghapus kategori alat rental.
+- [x] Kategori yang menaungi produk terlindungi dari penghapusan tidak sengaja.
+- [x] Perubahan langsung tercermin pada filter landing page publik.
 
 ## Verifikasi
 `npx tsc --noEmit`
