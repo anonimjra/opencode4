@@ -39,9 +39,9 @@ Membangun layout utama panel administrasi (`app/admin/layout.tsx`) dengan sideba
    - Isolasi agar halaman `/admin/login` tidak menampilkan sidebar ganda.
 
 ## Kriteria selesai
-- [ ] Sidebar menampilkan seluruh 8 modul admin rental kamera.
-- [ ] Indikator menu aktif berpindah dinamis mengikuti rute URL.
-- [ ] Tombol logout di header menghapus sesi dan mengarahkan ke halaman login.
+- [x] Sidebar menampilkan seluruh 8 modul admin rental kamera.
+- [x] Indikator menu aktif berpindah dinamis mengikuti rute URL.
+- [x] Tombol logout di header menghapus sesi dan mengarahkan ke halaman login.
 
 ## Verifikasi
 `npx tsc --noEmit`
