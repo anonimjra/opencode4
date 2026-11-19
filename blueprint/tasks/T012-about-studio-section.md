@@ -31,9 +31,9 @@ Membangun section Profil Studio Rental (`components/landing/AboutStudioSection.t
          3. *"Uji Fungsi Bersama"*: Pengecekan tombol, port HDMI/audio, dan fokus lensa saat serah terima.
 
 ## Kriteria selesai
-- [ ] Section memiliki atribut `id="about"`.
-- [ ] 3 poin keunggulan teknis perawatan alat terender rapi.
-- [ ] Gambar menggunakan `next/image` dengan aspek rasio terjaga.
+- [x] Section memiliki atribut `id="about"`.
+- [x] 3 poin keunggulan teknis perawatan alat terender rapi.
+- [x] Gambar menggunakan `next/image` dengan aspek rasio terjaga.
 
 ## Verifikasi
 `npx tsc --noEmit`
