@@ -36,9 +36,9 @@ Membangun halaman login admin (`app/admin/login/page.tsx`) dengan desain cinema 
    - Kartu login berbingkai dengan logo studio, judul *"Portal Pengelola Rental"*, dan subjudul *"Kelola inventaris kamera, nomor seri, dan antrean booking."*.
 
 ## Kriteria selesai
-- [ ] Halaman login dapat diakses di `/admin/login`.
-- [ ] Validasi kredensial bekerja via Supabase Auth.
-- [ ] Sesi login tersimpan dan me-redirect ke `/admin`.
+- [x] Halaman login dapat diakses di `/admin/login`.
+- [x] Validasi kredensial bekerja via Supabase Auth.
+- [x] Sesi login tersimpan dan me-redirect ke `/admin`.
 
 ## Verifikasi
 `npx tsc --noEmit`
